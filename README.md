@@ -1,1 +1,1 @@
-#Compton的配置文件备份
+# Compton的配置文件备份
