@@ -31,9 +31,20 @@ shadow-exclude = [
 
 #menu-opacity = 0.95;
 #光标不在的窗口的透明设置（越接近1越不透明）
-inactive-opacity = 0.2;
+inactive-opacity = 0.277;
 #光标在的窗口的透明设置（越接近1越不透明）
-active-opacity = 1;
+active-opacity = 0.655;
+
+#inactive-opacity = 0.277;
+#active-opacity = 0.655;
+#是sakura的设置
+#其中终端的不透明度设置为100,即不透明
+
+#inactive-opacity = 0.2;
+#active-opacity = 1;
+#是deepin-terminal的设置
+#其中终端的不透明度设置为100,即不透明
+
 #alpha-step = 0.01;
 #inactive-dim = 0.0;
 #
@@ -83,7 +94,7 @@ opacity-rule = [
 "60:name *?= 'Screenkey'",
 #"99:class_g = 'Darktable'", 
 "50:class_g = 'Dmenu'", 
-"100:class_g = 'google-chrome-stable'", 
+#"100:class_g = 'google-chrome-stable'", 
 #"99:name *?= 'Event'", 
 #"99:class_g = 'Firefox'",
 #"99:class_g = 'GIMP'", 
