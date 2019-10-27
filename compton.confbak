@@ -33,12 +33,12 @@ shadow-exclude = [
 #光标不在的窗口的透明设置（越接近1越不透明）
 inactive-opacity = 0.277;
 #光标在的窗口的透明设置（越接近1越不透明）
-active-opacity = 0.655;
+active-opacity = 1;
 
 #inactive-opacity = 0.277;
-#active-opacity = 0.655;
+#active-opacity = 1;
 #是sakura的设置
-#其中终端的不透明度设置为100,即不透明
+#其中终端的不透明度设置为63
 
 #inactive-opacity = 0.2;
 #active-opacity = 1;
